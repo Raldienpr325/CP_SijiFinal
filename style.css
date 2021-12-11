@@ -174,7 +174,8 @@ a {
 .nav-menu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
+  margin-top: 12px;
 }
 
 .nav-item {
@@ -881,7 +882,8 @@ a {
     font-size: 28px;
   }
   p {
-    font-size: 16px;
+    font-size: 14px;
+    
   }
   .btn-booking {
     display: block;
