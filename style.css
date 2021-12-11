@@ -359,6 +359,7 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
+
   #catering .kolom #cateringsubtitle-catering {
     margin-top: 20px;
     font-size: 38px;
@@ -369,7 +370,10 @@ a {
     margin-left: 0px;
   }
   h1 {
-    font-size: 54px;
+    font-size: 36px;
+  }
+  p{
+    font-size: 16px;
   }
   .bg-section1 {
     height: max-content;
@@ -428,6 +432,7 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+ 
   .subtitlecatering p {
     width: 100%;
     font-size: 16px;
