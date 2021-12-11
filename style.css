@@ -8,7 +8,29 @@
   color: white;
   font-size: 25px;
 }
-
+.halo-selamatpagi{
+  /* class="text-center" style="color: white;margin-top: 80px;font-size: 48px;" */
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  font-size: 40px;
+}
+.mau-dineindimana{
+  /* class="text-center" style="color: white;margin-top: -5px;font-size: 48px;"
+   */
+   text-align: center;
+   color: white;
+   margin-top: -5px;
+   font-size: 40px;
+}
+.tengah{
+  /* class="text-center" style="margin-top: -5px;color: #EEC55D;font-size: 48px;" */
+  text-align: center;
+  margin-top: -5px;
+  color: white;
+  font-size: 40px;
+  color: #eec55d;
+}
 h1 {
   margin-top: 50px;
   font-family: "Poppins";
@@ -813,6 +835,29 @@ a {
 }
 
 @media only screen and (max-width: 500px) {
+  .halo-selamatpagi{
+    /* class="text-center" style="color: white;margin-top: 80px;font-size: 48px;" */
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-size: 0px;
+  }
+  .mau-dineindimana{
+    /* class="text-center" style="color: white;margin-top: -5px;font-size: 48px;"
+     */
+     text-align: center;
+     color: white;
+     margin-top: -5px;
+     font-size: 30px;
+  }
+  .tengah{
+    /* class="text-center" style="margin-top: -5px;color: #EEC55D;font-size: 48px;" */
+    text-align: center;
+    margin-top: -5px;
+    color: white;
+    font-size: 30px;
+    color: #eec55d;
+  }
   #cateringsubtitle-catering {
     font-size: 14px;
     margin-bottom: 10px;
@@ -940,6 +985,7 @@ a {
 }
 
 @media only screen and (max-width: 411px) {
+  
   #catering .kolom #cateringsubtitle-catering {
     margin-top: 10px;
     font-size: 15px;
@@ -1020,6 +1066,29 @@ a {
 }
 
 @media only screen and (max-width: 414px) {
+  .halo-selamatpagi{
+    /* class="text-center" style="color: white;margin-top: 80px;font-size: 48px;" */
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-size: 30px;
+  }
+  .mau-dineindimana{
+    /* class="text-center" style="color: white;margin-top: -5px;font-size: 48px;"
+     */
+     text-align: center;
+     color: white;
+     margin-top: -5px;
+     font-size: 30px;
+  }
+  .tengah{
+    /* class="text-center" style="margin-top: -5px;color: #EEC55D;font-size: 48px;" */
+    text-align: center;
+    margin-top: -5px;
+    color: white;
+    font-size: 30px;
+    color: #eec55d;
+  }
   #catering .kolom #cateringsubtitle-catering {
     margin-top: 20px;
     font-size: 14px;
@@ -1115,6 +1184,7 @@ a {
 }
 
 @media only screen and (max-width: 375px) {
+  
   #catering .kolom #cateringsubtitle-catering {
     margin-top: 10px;
     font-size: 12px;
@@ -1182,6 +1252,29 @@ a {
 }
 
 @media only screen and (max-width: 360px) {
+  .halo-selamatpagi{
+    /* class="text-center" style="color: white;margin-top: 80px;font-size: 48px;" */
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-size: 24px;
+  }
+  .mau-dineindimana{
+    /* class="text-center" style="color: white;margin-top: -5px;font-size: 48px;"
+     */
+     text-align: center;
+     color: white;
+     margin-top: -5px;
+     font-size: 24px;
+  }
+  .tengah{
+    /* class="text-center" style="margin-top: -5px;color: #EEC55D;font-size: 48px;" */
+    text-align: center;
+    margin-top: -5px;
+    color: white;
+    font-size: 24px;
+    color: #eec55d;
+  }
   #catering .kolom #cateringsubtitle-catering {
     margin-top: 10px;
     font-size: 13px;
