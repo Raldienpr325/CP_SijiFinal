@@ -52,14 +52,27 @@
     </header>
     <div class="wrapper">
         <section id="dinein" class="bg-section1">
+
             <div class="container">
                 <div class="row align-item-center">
                     <div class="col">
-                        <h1 class="halo-selamatpagi">Halo, Selamat Pagi <span id="time-text"></span>
-                            <h1 class="tengah">
-                                <span style="color: white;">Pelanggan</span> Warung Siji
-                            </h1>
-                            <h1 class="mau-dineindimana">Mau Dine In
+                        <h1 class="text-center" style="color: white;margin-top: 80px;">Halo, Selamat
+                            <script type="text/javascript">
+                                var day = new Date();
+                                var hr = day.getHours();
+                                if (hr >= 0 && hr < 12) {
+                                    document.write("Pagi");
+                                } else if (hr == 12) {
+                                    document.write("Siang");
+                                } else if (hr >= 12 && hr <= 17) {
+                                    document.write("Sore");
+                                } else {
+                                    document.write("Malam");
+                                }
+                            </script>
+                            <h1 class="text-center" style="margin-top: -5px;color: #EEC55D;"><span
+                                    style="color: white;">Pelanggan</span> Warung Siji</h1>
+                            <h1 class="text-center" style="color: white;margin-top: -5px;">Mau Dine In
                                 Dimana?</h1>
                         </h1>
                     </div>
